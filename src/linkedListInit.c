@@ -1,5 +1,6 @@
 #include <linkedList.h>
 
+//Insert at the end
 int insertNodeAtTheEnd(Node** head, int newValue) {
 	//Allocate memory for new Node
 	Node * newNode = (Node*)malloc(sizeof(Node));
@@ -24,8 +25,17 @@ int insertNodeAtTheEnd(Node** head, int newValue) {
 	
 	return 0;
 }
-//TODO: Write insert at begining
+//Insert at begining
 int insertNodeAtTheBeginning(Node** head, int newValue) {
+	//Allocate memory for new node
+	Node * newNode = (Node*)malloc(sizeof(Node));
+	//Link the newNode next node address to current head
+	newNode->next = *head;
+	//Add value to the new node
+	newNode->value = newValue;
+	//Set the current Node as new head
+	*head = newNode;
+
 	return 0;
 }
 
