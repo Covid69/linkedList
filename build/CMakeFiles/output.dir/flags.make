@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/home/jt/c_projects/linkedList/inc
 
-C_FLAGS = -std=gnu11
+C_FLAGS = -g -g -std=gnu11
 
