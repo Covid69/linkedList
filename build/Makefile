@@ -129,6 +129,30 @@ output/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/output.dir/build.make CMakeFiles/output.dir/build
 .PHONY : output/fast
 
+src/linkedListInit.o: src/linkedListInit.c.o
+.PHONY : src/linkedListInit.o
+
+# target to build an object file
+src/linkedListInit.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/output.dir/build.make CMakeFiles/output.dir/src/linkedListInit.c.o
+.PHONY : src/linkedListInit.c.o
+
+src/linkedListInit.i: src/linkedListInit.c.i
+.PHONY : src/linkedListInit.i
+
+# target to preprocess a source file
+src/linkedListInit.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/output.dir/build.make CMakeFiles/output.dir/src/linkedListInit.c.i
+.PHONY : src/linkedListInit.c.i
+
+src/linkedListInit.s: src/linkedListInit.c.s
+.PHONY : src/linkedListInit.s
+
+# target to generate assembly for a file
+src/linkedListInit.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/output.dir/build.make CMakeFiles/output.dir/src/linkedListInit.c.s
+.PHONY : src/linkedListInit.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... output"
+	@echo "... src/linkedListInit.o"
+	@echo "... src/linkedListInit.i"
+	@echo "... src/linkedListInit.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

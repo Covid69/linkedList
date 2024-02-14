@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/output.dir/src/linkedListInit.c.o"
+  "CMakeFiles/output.dir/src/linkedListInit.c.o.d"
   "CMakeFiles/output.dir/src/main.c.o"
   "CMakeFiles/output.dir/src/main.c.o.d"
   "output"

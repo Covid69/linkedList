@@ -1,8 +1,7 @@
-CMakeFiles/output.dir/src/main.c.o: \
- /home/jt/c_projects/linkedList/src/main.c /usr/include/stdc-predef.h \
- /home/jt/c_projects/linkedList/inc/main.h \
- /home/jt/c_projects/linkedList/inc/../inc/linkedList.h \
- /usr/include/stdio.h \
+CMakeFiles/output.dir/src/linkedListInit.c.o: \
+ /home/jt/c_projects/linkedList/src/linkedListInit.c \
+ /usr/include/stdc-predef.h \
+ /home/jt/c_projects/linkedList/inc/linkedList.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
