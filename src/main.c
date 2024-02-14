@@ -8,6 +8,7 @@ int main(){
 	printf("%d\n", func_ptr(&head, 13));
 	printf("%d\n", func_ptr(&head, 14));
 	printf("%d\n", func_ptr(&head, 15));
+	deleteNodeUsingKey(&head,14);
 	printList(head);
 	return 0;
 }

@@ -12,3 +12,4 @@ typedef struct Node{
 int insertNodeAtTheEnd(Node** head, int newValue);
 int insertNodeAtTheBeginning(Node** head, int newValue);
 void printList(Node * node);
+int deleteNodeUsingKey(Node** head, int key);
