@@ -1,0 +1,3 @@
+/home/jt/c_projects/linkedList/build/CMakeFiles/output.dir
+/home/jt/c_projects/linkedList/build/CMakeFiles/edit_cache.dir
+/home/jt/c_projects/linkedList/build/CMakeFiles/rebuild_cache.dir
