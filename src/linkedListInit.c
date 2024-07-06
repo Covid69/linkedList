@@ -42,13 +42,13 @@ int insertNodeAtTheBeginning(Node** head, int newValue) {
 }
 
 //Print out list
-void printList(Node * node){
+int printList(Node * node){
 		while(node != NULL){
-			printf("%d -> ",node->value);
+			printf("[%d] -> ",node->value);
 			node = node->next;
 		}
-		printf("NULL\n");
-		return;
+		printf("[NULL]\n");
+		return 0;
 }
 
 // Delete Node using key value

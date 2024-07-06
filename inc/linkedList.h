@@ -11,5 +11,5 @@ typedef struct Node{
 //Node methods
 int insertNodeAtTheEnd(Node** head, int newValue);
 int insertNodeAtTheBeginning(Node** head, int newValue);
-void printList(Node * node);
+int printList(Node * node);
 int deleteNodeUsingKey(Node** head, int key);
