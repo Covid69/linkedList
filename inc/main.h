@@ -1,4 +1,4 @@
-#include <../inc/linkedList.h>
+#include "abstract.h"
 #include <stdlib.h>
 #include <stdio.h>
 
